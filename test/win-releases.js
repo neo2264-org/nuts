@@ -3,7 +3,7 @@ var winReleases = require('../lib/utils/win-releases');
 
 describe('Windows RELEASES', function() {
 
-    describe('Version Normalization', function() {
+    describe('Version Normalization', function() {ddd
 
         it('should not changed version without pre-release', function() {
             winReleases.normVersion('1.0.0').should.be.exactly('1.0.0');

@@ -3,7 +3,7 @@ var platforms = require('../lib/utils/platforms');
 
 describe('Platforms', function() {
 
-    describe('Detect', function() {
+    describe('Detect', function() {ss
 
         it('should detect osx_64', function() {
             platforms.detect('myapp-v0.25.1-darwin-x64.zip').should.be.exactly(platforms.OSX_64);
